@@ -3,6 +3,7 @@ package dataProviders;
 import org.testng.annotations.DataProvider;
 
 public class AccountSummaryDataProvider {
+
     @DataProvider(name = "my-data-provider")
     public static Object[][] dataProviderMethod() {
         return new Object[][] {
